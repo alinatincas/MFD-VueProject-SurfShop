@@ -19,7 +19,7 @@
             <div class="col2-row3">CHECKOUT</div>
             <div class="col1-row4">SEARCH</div>
             <div class="col2-row4">
-                <span>x </span>
+                <span> x </span>
                 <img src="../assets/images/standard/search-icon.png" alt="seacrh icon">
             </div>
         </section>

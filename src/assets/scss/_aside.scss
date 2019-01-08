@@ -1,0 +1,28 @@
+.main-menu {
+    padding-left: 10%;
+    .menu-title {
+        background-color: $dark-grey-color;
+        padding: 1%;
+    }
+}
+
+.bg {
+    background-color: $main-blue-color;
+    padding: 1%;
+    a {
+        color: $black-color;
+        font-size: 1.2em;
+        text-decoration: none;
+    }
+}
+
+.menu-highlight--link {
+    color: $white-color;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.menu-highlight {
+    background-color: $dark-grey-color;
+    padding: 1%;
+}
