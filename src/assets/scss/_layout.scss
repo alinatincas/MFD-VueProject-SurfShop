@@ -1,3 +1,115 @@
-.hi-text{
-    color: $primary-color;
+/* Start Main Header Styles */
+
+/* End Main Header Styles */
+
+body {
+    margin: 0;
+    padding: 0;
 }
+
+/* Start Main Header Styles */
+
+#MainHeader {
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    grid-template-rows: auto auto auto auto;
+    background-color: $main-blue-color;
+}
+
+;
+.logo__image {
+    padding: 10%;
+    margin-left: 40%;
+    grid-column: 1;
+    grid-row: 1 span 4;
+}
+
+;
+.cart-panel {
+    display: grid;
+    .col1-row1 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .col2-row1 {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .text1 {
+        background-color: $white-color;
+        color: $highlight-orange-colour;
+    }
+    .col1-row2 {
+        grid-column: 1;
+        grid-row: 2;
+        background-color: #fb4d01;
+    }
+    .col2-row2 {
+        grid-column: 2;
+        grid-row: 2;
+        background-color: #fb4d01;
+        color: $white-color;
+    }
+    .col1-row3 {
+        grid-column: 1;
+        grid-row: 3;
+        color: $white-color;
+        background-color: #ee4a02;
+    }
+    .col2-row3 {
+        grid-column: 2;
+        grid-row: 3;
+        color: $white-color;
+        background-color: $highlight-orange-colour;
+    }
+    .col1-row4 {
+        grid-column: 1;
+        grid-row: 4;
+        background-color: $light-grey-color;
+    }
+    .col2-row4 {
+        grid-column: 2;
+        grid-row: 4;
+        background-color: $light-grey-color;
+        img {
+            background-color: $black-color;
+        }
+    }
+}
+
+.checkout-panel {
+    .checkout-panel__row1 {
+        p.cart-row1-part1 {
+            grid-column: 2;
+            grid-row: 1;
+        }
+        p.cart-row1-part2 {
+            grid-column: 3;
+            grid-row: 1;
+        }
+        .checkout-panel__row2 {
+            grid-column: 2 span 3;
+            grid-row: 2;
+            display: inline;
+        }
+        p.cart-row3-part1 {
+            grid-column: 2;
+            grid-row: 3;
+        }
+        p.cart-row3-part2 {
+            grid-column: 3;
+            grid-row: 3;
+        }
+        p.cart-row4-part1 {
+            grid-column: 2;
+            grid-row: 4;
+        }
+        p.cart-row4-part2 {
+            grid-column: 3;
+            grid-row: 4;
+        }
+    }
+}
+
+;
+/* End Main Header Styles */

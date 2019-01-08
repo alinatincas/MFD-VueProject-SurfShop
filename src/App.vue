@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <MainHeader></MainHeader>
+    <MainMenu></MainMenu>
     <div>
       <router-view />
     </div>
@@ -9,12 +10,14 @@
 </template>
 
 <script>
+import MainMenu from "./components/MainMenu"
 import MainHeader from "./components/MainHeader"
 import MainFooter from "./components/MainFooter"
 
 export default {
   name: "app",
   components: {
+    MainMenu,
     MainHeader, 
     MainFooter
   }
@@ -23,7 +26,7 @@ export default {
 
 <style lang="scss">
 @import "./assets/scss/styles.scss";
-#app {
+/*#app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -39,5 +42,5 @@ export default {
       color: #42b983;
     }
   }
-}
+}*/
 </style>
