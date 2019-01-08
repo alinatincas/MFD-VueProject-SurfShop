@@ -2,8 +2,9 @@
     <aside>
         <section class="main-menu">
             <div class="menu-title">
-                <a href="#" class="menu-highlight--link"> MENU </a> </div>
-                <div class="bg">
+                <a href="#" class="menu-highlight--link"> MENU </a> 
+            </div>
+            <div class="bg">
                 <a href="#">ABOUT</a>  <br><br>
                 <a href="#">APPAREL</a>  <br><br>
                 <a href="#">SURF APPAREL</a>  <br><br>
@@ -14,13 +15,40 @@
                 <a href="#">BRANDS</a>  <br><br>
                 <a href="#">BLOG</a>  <br><br>
                 <a href="#">GADGETS</a>  
-                </div>
+            </div>
             
             <div class="menu-highlight">
                 <router-link to="/contact" class="menu-highlight--link">CONTACT</router-link>
             </div>
         </section>
         <section class="tags">
+            <p><b><i>Tags Widgets</i></b></p>
+                <button class="btn" type="button"> INSERT EMAIL </button>
+                <button class="btn" type="button"> INSERT EMAIL </button><br>
+
+                <button class="btn" type="button"> INSERT EMAIL </button>
+                <button class="btn" type="button"> INSERT EMAIL </button><br>
+
+                <button class="btn" type="button"> INSERT EMAIL </button>
+                <button class="btn" type="button"> INSERT EMAIL </button>
+                <button class="btn" type="button"> INSERT EMAIL </button><br>
+
+                <button class="btn" type="button"> INSERT EMAIL </button>
+                <button class="btn" type="button"> INSERT EMAIL </button>
+                <button class="btn" type="button"> INSERT EMAIL </button><br>
+
+                <button class="btn" type="button"> INSERT EMAIL </button>
+                <button class="btn" type="button"> INSERT EMAIL </button><br>
+
+                <button class="btn" type="button"> INSERT EMAIL </button>
+                <button class="btn" type="button"> INSERT EMAIL </button>
+                <button class="btn" type="button"> INSERT EMAIL </button><br>
+
+                <button class="btn" type="button"> INSERT EMAIL </button>
+                <button class="btn" type="button"> INSERT EMAIL </button>
+                <button class="btn" type="button"> INSERT EMAIL </button><br>
+
+            <p><i><a href="#">view all tags -></a></i></p>
 
         </section>
     </aside>
