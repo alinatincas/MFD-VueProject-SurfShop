@@ -15,9 +15,23 @@
         font-weight: bold;
         text-decoration: none;
     }
+    a:hover {
+        color: $white-color;
+        font-size: 1.2em;
+        font-weight: bold;
+        text-decoration: none;
+        background-color: $dark-grey-color;
+        padding: 1%;
+    }
+    .btn {
+        border: none;
+        color: $black-color;
+        padding: 1%;
+    }
 }
 
-.menu-highlight--link {
+.menu-highlight--link,
+    {
     color: $white-color;
     font-size: 1.2em;
     font-weight: bold;
@@ -30,11 +44,23 @@
 }
 
 .tags {
-    padding-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    margin-left: 10%;
     background-color: $white-color;
     .btn {
         border: none;
         background-color: $light-grey-color;
         align-content: center;
     }
+    button.btn{
+        padding: 1%;
+        margin: 1%;
+    }
+}
+aside{
+    display: grid;
+    grid-template-columns: 20%;
+    grid-template-rows: auto;
 }

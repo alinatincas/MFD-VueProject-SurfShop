@@ -1,7 +1,7 @@
 <template>
     <header id="MainHeader">
         <section class="logo">
-            <img class="logo__image" src="../assets/images/standard/surfhouse-logo.png" alt="SurfShop Logo">
+             <router-link to="/home"><img class="logo__image" src="../assets/images/standard/surfhouse-logo.png" alt="SurfShop Logo"></router-link>
         </section>
         <section class="cart-panel">
             <div class="col1-row1 text1">

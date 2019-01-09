@@ -9,7 +9,6 @@
             <img src="../assets/images/standard/surfhouse-logo.png" alt="logo">
             <img src="../assets/images/standard/surfhouse-logo.png" alt="logo">
             <img src="../assets/images/standard/surfhouse-logo.png" alt="logo">
-            <img src="../assets/images/standard/surfhouse-logo.png" alt="logo">
         </section>
         <section class="footer__content">
             <div class="category">
