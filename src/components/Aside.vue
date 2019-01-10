@@ -1,10 +1,10 @@
 <template>
     <aside>
         <section class="main-menu">
-            <div class="menu-title">
-                <a href="#" class="menu-highlight--link" > MENU </a> 
+            <div class="menu-title" v-on:click="isHidden = !isHidden">
+                <a href="#" class="menu-highlight--link"> MENU </a> 
             </div>
-            <div class="bg">
+            <div class="bg" v-if="!isHidden"> 
                 <a href="#">ABOUT</a>  <br><br>
                 <a href="#">APPAREL</a>  <br><br>
                 <a href="#">SURF APPAREL</a>  <br><br>
@@ -59,6 +59,9 @@ export default {
   name: 'Aside',
   props: {
     msg: String
+  },
+  data: {
+    isHidden: true
   }
 }
 </script>

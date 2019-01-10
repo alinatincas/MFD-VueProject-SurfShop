@@ -5,9 +5,9 @@
 <div class="aside-panel">
    <section class="main-menu">
             <div class="menu-title">
-                <a href="#" class="menu-highlight--link"> MENU </a> 
+                <a href="#" class="menu-highlight--link" v-on:click="isNinja = !isNinja"> MENU </a> 
             </div>
-            <div class="bg">
+            <div class="bg" v-show="!isNinja">
                 <a href="#">ABOUT</a>  <br><br>
                 <a href="#">APPAREL</a>  <br><br>
                 <a href="#">SURF APPAREL</a>  <br><br>
@@ -64,20 +64,17 @@
           </div>
           
           <img class="slide-img" src="../assets/images/standard/slider01.jpg" alt="">
+          <div class="prd-list">
           <h1 class="txt2"><i><b>NEW PRODUCTS</b></i></h1>
-    
-      <div class="prd1">
-        <router-link to="/product"><img src="../assets/images/standard/image-product.jpg" alt=""></router-link>
-      </div>
-      <div class="prd2">
-        <img src="../assets/images/standard/image-product.jpg" alt="">
-      </div>
-
+            <div class="prd1">
+                <router-link to="/product"><img src="../assets/images/standard/image-product.jpg" alt=""></router-link>
+                <router-link to="/product"><img src="../assets/images/standard/image-product.jpg" alt=""></router-link>
+                <router-link to="/product"><img src="../assets/images/standard/image-product.jpg" alt=""></router-link>
+            </div>
+        </div>
         </div>
     </aside>
-    </section>
-    
-  
+    </section>  
 </template>
 
 <script>
@@ -85,9 +82,7 @@
 
 export default {
   name: 'home',
-  components: {
-    
-  }
+  
 };
 
 </script>
