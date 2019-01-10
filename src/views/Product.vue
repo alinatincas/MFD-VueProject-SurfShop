@@ -56,6 +56,30 @@
         <section class="product-side">
         <img src="../assets/images/standard/img-prd.jpg" alt="">
         <h1>PRODUCT</h1>
+
+        <!-- tabs from https://www.npmjs.com/package/vue-simple-tabs -->
+        <tabs>
+            <tab title="PRODUCT DESCRIPTION" active="true">
+                 <div class="content">Nulla consequat massa quis enim. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi. <br> <br>
+
+                Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros.</div>
+            </tab> <br>
+            <tab title="ADDITIONAL INFORMATION">
+                <div class="content">Nulla consequat massa quis enim. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi. <br> <br>
+
+                Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros.</div>             
+            </tab><br>
+            <tab title="REVIEWS">
+                <div class="content">Nulla consequat massa quis enim. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi. <br> <br>
+
+                Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros.</div> 
+            </tab>
+            <tab title="PRODUCT TAGS">
+                <div class="content">Nulla consequat massa quis enim. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi. <br> <br>
+
+                Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros.</div> 
+            </tab>
+        </tabs>
     </section>
     </aside>
     
@@ -63,4 +87,11 @@
 </template>
 
 
-
+<script>
+import { Tabs, Tab } from 'vue-simple-tabs';
+ 
+  export default {
+    components: { Tabs, Tab },
+    
+  };
+</script>

@@ -82,11 +82,6 @@
 
 export default {
   name: 'home',
-  methods : {
-        trigger_refered_element : function(){
-            this.$refs.open_me.open();
-        }
-    }
 };
 
 </script>

@@ -71,3 +71,20 @@ aside {
     grid-column: 2;
     grid-row: 1;
 }
+
+li.active {
+    color: $main-blue-color;
+}
+
+li {
+    display: contents;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+.content{
+    border: 1px solid black;
+    padding: 1%;
+}

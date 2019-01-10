@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from "./views/Home.vue";
 import Product from "./views/Product.vue";
 import Contact from './views/Contact.vue';
+
 import EffectDropdown from 'effect-dropdown-vue'
 import 'effect-dropdown-vue/dist/index.css'
 
