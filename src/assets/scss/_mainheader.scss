@@ -2,21 +2,23 @@
 
 #MainHeader {
     display: grid;
-    grid-template-columns: 20% 40% 40%;
+    grid-template-columns: 20% 80%;
     grid-template-rows: auto auto auto auto;
     background-color: $main-blue-color;
 }
 
 ;
-.logo__image {
+img.logo__image {
     padding: 10%;
     margin-left: 40%;
     grid-column: 1;
-    grid-row: 1 span 4;
+    grid-row: 1;
 }
 
 ;
 .cart-panel {
+    margin-left: 65%;
+    margin-right: 15%;
     display: grid;
     .col1-row1 {
         grid-column: 1;

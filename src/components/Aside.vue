@@ -2,7 +2,7 @@
     <aside>
         <section class="main-menu">
             <div class="menu-title">
-                <a href="#" class="menu-highlight--link"> MENU </a> 
+                <a href="#" class="menu-highlight--link" > MENU </a> 
             </div>
             <div class="bg">
                 <a href="#">ABOUT</a>  <br><br>
