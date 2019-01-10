@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <MainHeader></MainHeader>
+    <MainHeader></MainHeader><br>
     <!-- <Ether msg="ABCDFDSGSG" /> -->
-    <MainMenu></MainMenu>
+
     <div>
       <router-view />
     </div>
@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import MainMenu from "./components/MainMenu";
+
 import MainHeader from "./components/MainHeader";
 import MainFooter from "./components/MainFooter";
 // import Ether from './components/Ether.vue';
@@ -24,7 +24,7 @@ import "vue-form-generator/dist/vfg-core.css";
 export default {
   name: "app",
   components: {
-    MainMenu,
+
     MainHeader, 
     MainFooter,
     // Ether

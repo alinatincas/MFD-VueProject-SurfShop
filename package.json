@@ -8,12 +8,14 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "effect-dropdown-vue": "^1.0.1",
     "vee-validate": "^2.1.5",
     "vue": "^2.5.21",
     "vue-form-generator": "^2.3.3",
     "vue-grid-layout": "^2.3.3",
     "vue-hot-reload-loader": "^0.2.0",
     "vue-router": "^3.0.1",
+    "vue-truncate-collapsed": "^2.1.0",
     "vuelidate": "^0.7.4"
   },
   "devDependencies": {
@@ -27,6 +29,7 @@
     "sass-loader": "^7.1.0",
     "vue-cli-plugin-sass-resources-loader": "^1.0.0",
     "vue-template-compiler": "^2.5.21",
+    "vue2-collapse": "^1.0.15",
     "webpack": "^4.28.1"
   }
 }

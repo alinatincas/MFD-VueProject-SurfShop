@@ -5,7 +5,7 @@
 <div class="aside-panel">
    <section class="main-menu">
             <div class="menu-title">
-                <a href="#" class="menu-highlight--link" v-on:click="isNinja = !isNinja"> MENU </a> 
+                <a href="#" class="menu-highlight--link" v-on:click="isNinja = !isNinja" ref="open_me"> MENU </a> 
             </div>
             <div class="bg" v-show="!isNinja">
                 <a href="#">ABOUT</a>  <br><br>
@@ -82,7 +82,11 @@
 
 export default {
   name: 'home',
-  
+  methods : {
+        trigger_refered_element : function(){
+            this.$refs.open_me.open();
+        }
+    }
 };
 
 </script>

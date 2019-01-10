@@ -2,25 +2,20 @@
   <section class="contact">
     <aside>    
       <section class="main-menu">
-          <div class="menu-title">
-              <a href="#" class="menu-highlight--link"> MENU </a> 
-          </div>
-          <div class="bg">
-              <a href="#">ABOUT</a>  <br><br>
-              <a href="#">APPAREL</a>  <br><br>
-              <a href="#">SURF APPAREL</a>  <br><br>
-              <a href="#">WINDSURF</a>  <br><br>
-              <a href="#">KITESURF</a>  <br><br>
-              <a href="#">ACCESSORIES</a>  <br><br>
-              <a href="#">SALE</a>  <br><br>
-              <a href="#">BRANDS</a>  <br><br>
-              <a href="#">BLOG</a>  <br><br>
-              <a href="#">GADGETS</a>  
-          </div>
-          
-          <div class="menu-highlight">
-              <router-link to="/contact" class="menu-highlight--link">CONTACT</router-link>
-          </div>
+          <!-- menu dropdown from: https://github.com/snokier/effect-dropdown-vue/blob/master/README_en.md -->
+        <effect-dropdown  class="menu-highlight--link menu-title"  label="MENU" active-color="#26d2fc" effect="camber">
+            <effect-dropdown-item class="bg content"><a href="#">ABOUT</a></effect-dropdown-item>
+            <effect-dropdown-item class="bg content"><a href="#">APPAREL</a></effect-dropdown-item>
+            <effect-dropdown-item class="bg content"><a href="#">SURF APPAREL</a></effect-dropdown-item>
+            <effect-dropdown-item class="bg content"><a href="#">WINDSURF</a></effect-dropdown-item>
+            <effect-dropdown-item class="bg content"><a href="#">KITESURF</a></effect-dropdown-item>
+            <effect-dropdown-item class="bg content"><a href="#">ACCESSORIES</a></effect-dropdown-item>
+            <effect-dropdown-item class="bg content"><a href="#">SALE</a></effect-dropdown-item>
+            <effect-dropdown-item class="bg content"><a href="#">BRANDS</a></effect-dropdown-item>
+            <effect-dropdown-item class="bg content"><a href="#">BLOG</a></effect-dropdown-item>
+            <effect-dropdown-item class="bg content"><a href="#">GADGETS</a></effect-dropdown-item>
+            <effect-dropdown-item class="bg content menu-highlight"><router-link to="/contact" class="menu-highlight--link">CONTACT</router-link></effect-dropdown-item>
+        </effect-dropdown>
       </section>
       <section class="tags">
         <h2><b><i>Tags Widgets</i></b></h2>
